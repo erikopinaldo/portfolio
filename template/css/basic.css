@@ -59,7 +59,7 @@ body.scroll_hidden {
 	clear: both;
 }
 
-.cursor-follower {
+/* .cursor-follower {
 	margin: -13px 0 0 -13px;
 	position: absolute;
 	background: #4bffa5;
@@ -74,7 +74,7 @@ body.scroll_hidden {
 	-moz-border-radius: 50%;
 	-webkit-border-radius: 50%;
 	-khtml-border-radius: 50%;
-}
+} */
 
 .cursor-follower.hide {
 	opacity: 0 !important;
