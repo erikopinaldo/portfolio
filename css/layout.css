@@ -2650,12 +2650,12 @@
 
 
 /* section skills fullhd */
-@media (min-width: 1700px) {
+/* @media (min-width: 1700px) {
 	.skills.list ul li {
 		width: 33.333%;
 	}
 
-}
+} */
 
 /* section skills mobile */
 @media (max-width: 720px) {
