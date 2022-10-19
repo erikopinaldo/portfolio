@@ -1441,6 +1441,7 @@
 .skills.list ul {
 	margin: 0 -35px;
 	display: flex;
+	flex-flow: row wrap;
 	justify-content: center;
 }
 
@@ -2679,9 +2680,9 @@
 	}
 
 
-	.skills.list ul li {
+	/* .skills.list ul li {
 		width: 100%;
-	}
+	} */
 
 
 	.skills.list ul li:last-child,
