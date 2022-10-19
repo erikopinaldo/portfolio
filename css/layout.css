@@ -1440,6 +1440,8 @@
 
 .skills.list ul {
 	margin: 0 -35px;
+	display: flex;
+	justify-content: center;
 }
 
 .skills.list ul li {
@@ -1449,7 +1451,7 @@
 	padding-right: 35px;
 	display: inline-block;
 	vertical-align: top;
-	width: 50%;
+	/* width: 50%; */
 }
 
 .skills.list ul li .name {
