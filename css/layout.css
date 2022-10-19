@@ -1495,6 +1495,15 @@
 	vertical-align: top;
 }
 
+.zoom {
+	transition: transform .2s;
+}
+
+.zoom:hover {
+	transform: scale(1.2);
+	/* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
 /* Tooltip container */
 .tooltip {
 	position: relative;
