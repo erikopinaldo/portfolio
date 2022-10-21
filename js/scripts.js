@@ -326,12 +326,12 @@
 		return false;
 	});
 
-	/*
-		Download CV on Mobile
-	*/
-	$('.section.about').on('click touchstart', '.btn', function(){
-		location.href = $(this).attr('href');
-	});
+	// /*
+	// 	Download CV on Mobile
+	// */
+	// $('.section.about').on('click touchstart', '.btn', function(){
+	// 	location.href = $(this).attr('href');
+	// });
 	
 	/*
 		Mouse Button Scroll
