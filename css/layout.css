@@ -667,15 +667,16 @@
 .section.started .started-content .typed-bread {
 	margin-top: -45px;
 	position: absolute;
-	top: 50%;
-	left: 0;
+	top: 85%;
+	/* left: 0; */
+	left: calc(20% + 30px);
 	width: 100%;
 	display: block;
 	font-size: 90px;
 	line-height: 90px;
 	font-weight: 500;
 	color: #FFF;
-	text-align: center;
+	/* text-align: center; */
 }
 
 .section.started .started-content .h-subtitle strong,
@@ -971,6 +972,10 @@
 		padding-right: 50px;
 	}
 
+	.section.started .started-content .typed-subtitle {
+		left: 50px;
+	}
+
 
 	.section.started .started-content .h-title {
 		left: 50px;
@@ -1059,6 +1064,7 @@
 	}
 
 
+
 	.section.started .started-content .h-title {
 		left: 0;
 		bottom: 30px;
@@ -1073,6 +1079,11 @@
 		margin-top: -20px;
 		font-size: 30px;
 		line-height: 40px;
+	}
+
+	.section.started .started-content .typed-subtitle {
+		margin-top: 0;
+		left: 0;
 	}
 
 
