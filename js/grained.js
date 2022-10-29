@@ -19,7 +19,7 @@
         }
 
         if (!element) {
-            console.error('Grained: cannot find the element with id ' + ele);
+            // console.error('Grained: cannot find the element with id ' + ele);
             return;
         } else {
             elementId = element.id;
