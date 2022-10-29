@@ -1224,9 +1224,9 @@
 	height: auto;
 }
 
-.section.about .desc {
+/* .section.about .desc {
 	margin-left: 195px;
-}
+} */
 
 .section.about .desc p {
 	word-break: break-word;
@@ -1277,9 +1277,9 @@
 	}
 
 
-	.section.about .desc {
+	/* .section.about .desc {
 		margin-left: 145px;
-	}
+	} */
 
 }
 
@@ -1294,7 +1294,7 @@
 
 
 	.section.about .desc {
-		margin-left: 0;
+		/* margin-left: 0; */
 		text-align: center;
 	}
 
