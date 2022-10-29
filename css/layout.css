@@ -662,6 +662,25 @@
 	opacity: 1;
 }
 
+.section.started .started-content .main-title > * {
+	margin: 0;
+	color: #FFF;
+}
+
+.section.started .started-content .main-title {
+	margin-left: 20%;
+	position: absolute;
+	top: 70%;
+}
+
+.section.started .started-content .main-title h1 {
+	font-size: 90px;
+}
+
+.section.started .started-content .main-title h2 {
+	font-size: 20px;
+}
+
 .section.started .started-content .h-subtitle,
 .section.started .started-content .typed-subtitle,
 .section.started .started-content .typed-bread {
@@ -680,7 +699,8 @@
 }
 
 .section.started .started-content .h-subtitle strong,
-.section.started .started-content .typed-subtitle strong {
+.section.started .started-content .typed-subtitle strong, 
+.section.started .started-content .main-title > * strong {
 	color: #4bffa5;
 }
 
@@ -986,6 +1006,12 @@
 		display: none;
 	}
 
+	.section.started .started-content .main-title {
+		margin-left: 10%;
+		position: absolute;
+		top: 70%;
+	}
+
 
 	.section.started .started-content .h-subtitle,
 	.section.started .started-content .typed-subtitle,
@@ -1061,6 +1087,19 @@
 		padding-left: 30px;
 		padding-right: 30px;
 		padding-bottom: 30px;
+	}
+
+	.section.started .started-content .main-title {
+		margin-left: 0;
+		top: 65%;
+	}
+
+	.section.started .started-content .main-title h1 {
+		font-size: 50px;
+	}
+
+	.section.started .started-content .main-title h2 {
+		font-size: 17px;
 	}
 
 
@@ -1183,6 +1222,19 @@
 		height: 100%;
 		-webkit-clip-path: none;
 		clip-path: none;
+	}
+
+	.section.started .started-content .main-title {
+		margin-left: 20;
+		top: 65%;
+	}
+
+	.section.started .started-content .main-title h1 {
+		font-size: 50px;
+	}
+
+	.section.started .started-content .main-title h2 {
+		font-size: 17px;
 	}
 
 
